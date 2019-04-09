@@ -28,3 +28,37 @@ This project uses :
 
 * Then a number of cards are shown dynamically below the search bar. (Future work in frontend)
 Currently, plain data is rendered on the web page, whose glimpse can be seen at [Link](https://github.com/arshjat/Utility-For-Distributed-Labs/blob/master/static/images/Screenshot%20from%202019-04-09%2020-34-09.png)
+
+### Setting up the development server
+
+**Installation with Git**
+
+You need to have Python(>=3) and pip3 installed on your local machine.
+
+Git Clone.
+
+```
+git clone https://github.com/arshjat/Utility-For-Distributed-Labs.git
+```
+Install dependencies.
+
+```
+cd Utility-For-Distributed-Labs
+```
+
+Create and start a virtual environment.
+
+```
+virtualenv venv
+source venv/bin/activate
+```
+
+```
+pip3 install -r requirements.txt
+```
+
+To run the project.
+
+```
+python app.py
+```
