@@ -11,4 +11,17 @@ can be visualized with help of graphs and charts using web libraries. Such
 automated application will save the time it takes to manually look through PPTs
 and prepare reports.
 
-**Solution** : 
+**Solution** : This project was developed during BHacks (IIIC Allahabad's business solutions hackathon). 
+This project uses :
+  * Two NLP libraries - TextRazor (for keywords extraction) and DeepAI (for summarization of text).
+  * Pyrebase (a firebase API for python).
+  * Flask server as backend.
+  * React as frontend (Future Work).
+  
+### How it works ?
+
+* First a user is prompt to upload a powerpoint presentation to the server.
+![Uploading a slide](https://github.com/arshjat/Utility-For-Distributed-Labs/blob/master/static/images/Screenshot%20from%202019-04-09%2020-33-02.png)
+
+* Then the ... page is rendered and the scientists can search for all previous work done on a specific topic.
+![Search page](https://github.com/arshjat/Utility-For-Distributed-Labs/blob/master/static/images/Screenshot%20from%202019-04-09%2020-33-55.png)
