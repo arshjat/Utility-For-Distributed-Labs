@@ -39,10 +39,6 @@ Git Clone.
 
 ```
 git clone https://github.com/arshjat/Utility-For-Distributed-Labs.git
-```
-Install dependencies.
-
-```
 cd Utility-For-Distributed-Labs
 ```
 
@@ -52,6 +48,8 @@ Create and start a virtual environment.
 virtualenv venv
 source venv/bin/activate
 ```
+
+Install dependencies.
 
 ```
 pip3 install -r requirements.txt
