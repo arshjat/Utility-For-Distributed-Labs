@@ -25,3 +25,6 @@ This project uses :
 
 * Then the ... page is rendered and the scientists can search for all previous work done on a specific topic.
 ![Search page](https://github.com/arshjat/Utility-For-Distributed-Labs/blob/master/static/images/Screenshot%20from%202019-04-09%2020-33-55.png)
+
+* Then a number of cards are shown dynamically below the search bar. (Future work in frontend)
+Currently, plain data is rendered on the web page, whose glimpse can be seen at [Link](https://github.com/arshjat/Utility-For-Distributed-Labs/blob/master/static/images/Screenshot%20from%202019-04-09%2020-34-09.png)
