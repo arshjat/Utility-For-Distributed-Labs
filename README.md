@@ -21,6 +21,7 @@ This project uses :
 ### How it works ?
 
 * First a user is prompt to upload a powerpoint presentation to the server.
+![Index.html](https://github.com/arshjat/Utility-For-Distributed-Labs/blob/master/static/images/Screenshot%20from%202019-04-09%2020-32-42.png)
 ![Uploading a slide](https://github.com/arshjat/Utility-For-Distributed-Labs/blob/master/static/images/Screenshot%20from%202019-04-09%2020-33-02.png)
 
 * Then the ... page is rendered and the scientists can search for all previous work done on a specific topic.
