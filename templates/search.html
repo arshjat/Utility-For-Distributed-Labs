@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Home!</title>
+<!-- import Bulma CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css">
+<!-- custom styles -->
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+        <form action = "http://localhost:5000/add" method = "POST" 
+        enctype = "multipart/form-data">
+            <form id="post-form" >
+                <div class="field">
+                <label class="label">Search In The Database</label>
+                    <div class="control">
+                        <input name="query" class="input" type="text" placeholder="Search Query">
+                    </div>
+                </div>
+                
+                <div class="field">
+                  <button class="button is-primary">Submit</button>
+                </div>
+            </form>
+        </form>
+        </div>
+    </section>
+    <section>
+        <table border = 1>
+      
+        {% if p %}
+            {{ p }}
+        {% endif %}
+          
+        </table>
+    </section>
+</body>
+</html>

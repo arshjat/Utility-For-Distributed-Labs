@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans'); 
+
+body {
+  height: 100%;
+  width: 100%;
+  margin-top: 15%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  font-family: sans-serif;
+  background: linear-gradient(to right,#4568dc,#b068b3);
+}
+
+
+.file-upload {
+  box-shadow: 4px 5px #9f9da0;
+  border-color: #9f9da0;
+  background-color:#edd4f4;
+  border-width: 2px;
+  border-radius: 4%;
+  
+  width: 35%;
+  height: 73%;
+  margin-left: 30%;
+ position: absolute;
+ top: 10%;
+  padding: 2%;
+  padding-bottom: 2%;
+  
+}
+
+.file-upload-btn {
+  font-family: 'Open Sans', sans-serif;
+
+  width: 100%;
+  margin: 0;
+  color: black;
+  background: transparent;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  /*border-bottom: 4px solid #15824B;
+  */transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.file-upload-btn:hover {
+  background: #f3c4fc;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.file-upload-btn:active {
+  border: 0;
+  transition: all .2s ease;
+}
+
+.file-upload-content {
+  display: none;
+  text-align: center;
+}
+
+.file-upload-input {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.image-upload-wrap {
+  margin-top: 20px;
+  border: 4px dashed #fff0f0;
+  position: relative;
+}
+
+.image-dropping,
+.image-upload-wrap:hover {
+  background-color: #f3c4fc;
+  border: 4px dashed #fff0f0;
+}
+
+.image-title-wrap {
+  padding: 0 15px 15px 15px;
+  color: #222;
+}
+
+.drag-text {
+  text-align: center;
+}
+
+.drag-text h3 {
+  font-weight: 100;
+  text-transform: uppercase;
+  color: black;
+  padding: 60px 0;
+}
+
+.file-upload-image {
+  max-height: 200px;
+  max-width: 200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.remove-image {
+  width: 200px;
+  margin: 0;
+  color: #fff;
+  background: #cd4535;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #b02818;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.remove-image:hover {
+  background: #c13b2a;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.remove-image:active {
+  border: 0;
+  transition: all .2s ease;
+}
+.edit-1{
+  font-family: 'Open Sans', sans-serif;
+  color: #244369  ;
+  text-align: center;
+  font-size: 250%;
+  padding-bottom: 10%;
+  margin-bottom: 0px;
+}
+.edit-2{
+  margin-top: 5%;
+}
+.edit-8{
+  font-family: 'Open Sans', sans-serif;
+margin-bottom: 5%;
+margin-top: 5%;
+}
+.edit-9{
+  margin-top: 8%;
+  margin-left: 24%;
+  margin-bottom: 8%;
+}
